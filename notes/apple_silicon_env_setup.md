@@ -18,12 +18,12 @@ General Steps:
    From the Apple instructions:
 
    a. Create and initialize a virtual environment:
-   ```
+   ``` bash
    conda create -n <env_name> python=3.10
    conda activate <env_name>
    ```
    b. Install TensorFlow (follow Apple instructions for GPU access)
-   ```
+   ``` bash
    python -m pip install -U pip
    pip install tensorflow tensorflow-metal
    ```
