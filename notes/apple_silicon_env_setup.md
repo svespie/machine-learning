@@ -11,7 +11,7 @@ General Steps:
 
 3. Install miniforge: https://github.com/conda-forge/miniforge
 
-4. Install Conda: 
+4. Install Conda: https://www.anaconda.com/download
 
 5. Install TensorFlow (very important): https://developer.apple.com/metal/tensorflow-plugin/
 
