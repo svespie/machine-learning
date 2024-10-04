@@ -40,7 +40,7 @@ print(f"TensorFlow version: {tf.__version__}\n")
 gpus = tf.config.list_physical_devices("GPU")
 if gpus:
 	for gpu in gpus:
-		print(f"GPU detected: {tf.__version__}\n")
+		print(f"GPU detected: {gpu}\n")
 	print("")
 
 # train a model to ensure everything is working and benchmark
